@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <div class="form-group">
     <label for="languages"><span style="color:red;">* </span>Languages (select at least one)</label>
     <p class="languages"></p>
-    <input type="text" data-role="tagsinput" class="form-control languages" name="languages" required>
+    <input type="text" data-role="tagsinput" class="col-md-6 form-control languages" name="languages" required>
   </div>
   <div class="form-group">
   <label for="languages-list">Add a language:</label>
@@ -125,6 +125,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <option>xx-Qaai</option>
       <option>PORTUGUESE</option>
       <option>INDONESIAN</option>
+      <option>PERSIAN</option>
       <option>zzp</option>
       <option>GALICIAN</option>
       <option>IRISH</option>
